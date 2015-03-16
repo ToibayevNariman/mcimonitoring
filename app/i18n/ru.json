@@ -1,0 +1,27 @@
+{
+    "dashboard": {
+        "WELCOME": "Добро пожаловать в систему {{appName}}"
+    },
+    "topbar": {
+        "search": {
+            "PLACEHOLDER": "Введите текст и нажмите Enter..."
+        }
+    },
+    "sidebar": {
+        "WELCOME": "Добро пожаловать",
+        "heading": {
+            "HEADER": "Main Navigation"
+        },
+        "nav": {
+            "REALTIME": "В реальном времени",
+            "menu": {
+                "MENU": "Menu",
+                "SUBMENU": "Sub Menu",
+                "REVIEW": "Обзор",
+                "QUEUES": "Очереди",
+                "TRANSACTIONS": "Транзакции",
+                "SESSIONS": "Сессий"
+            }
+        }
+    }
+}

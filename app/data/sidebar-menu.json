@@ -1,0 +1,48 @@
+[
+    {
+        "text": "Menu Heading",
+        "heading": "true",
+        "translate": "sidebar.heading.HEADER"
+    },
+    {
+        "text": "В реальном времени",
+        "sref": "#",
+        "icon": " fa fa-tachometer",
+        "translate": "sidebar.nav.REALTIME",
+        "submenu": [
+            {
+                "text": "Обзор",
+                "sref": "app.dashboard",
+                "translate": "sidebar.nav.menu.REVIEW"
+            },
+            {
+                "text": "Очереди",
+                "sref": "app.queues",
+                "translate": "sidebar.nav.menu.QUEUES"
+            },
+            {
+                "text": "Транзакции",
+                "stef": "app.transactions",
+                "translate": "sidebar.nav.menu.TRANSACTIONS"
+            },
+            {
+                "text": "Сессий",
+                "stef": "app.sessions",
+                "translate": "sidebar.nav.menu.SESSIONS"
+            }
+        ]
+    },
+    {
+        "text": "Menu",
+        "sref": "#",
+        "icon": "icon-folder",
+        "translate": "sidebar.nav.menu.MENU",
+        "submenu": [
+            {
+                "text": "Sub Menu",
+                "sref": "app.submenu",
+                "translate": "sidebar.nav.menu.SUBMENU"
+            }
+        ]
+    }
+]
