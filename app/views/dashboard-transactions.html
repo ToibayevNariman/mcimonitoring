@@ -1,0 +1,89 @@
+<div class="row ng-scope">
+    <div class="col-lg-6">
+        <!-- START panel tab-->
+        <div class="panel panel-transparent">
+            <div justified="true" class="bg-white p0 ng-isolate-scope">
+                <ul class="nav nav-tabs nav-justified" ng-class="{'nav-stacked': vertical, 'nav-justified': justified}" ng-transclude="">
+                    <li ng-class="{active: active, disabled: disabled}" class="ng-isolate-scope active">
+                        <a href="" ng-click="select()" tab-heading-transclude="" class="ng-binding"><tab-heading class="ng-scope">
+                            <em class="fa fa-money fa-fw"></em>Transactions Panel</tab-heading></a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane ng-scope active" ng-repeat="tab in tabs" ng-class="{active: tab.active}" tab-content-transclude="tab">
+
+                    <div class="ng-scope">
+                        <!-- START table responsive-->
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-hover table-striped">
+                                <thead>
+                                <tr>
+                                    <th>Order #</th>
+                                    <th>Order Date</th>
+                                    <th>Order Time</th>
+                                    <th>Amount (USD)</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>3326</td>
+                                    <td>10/21/2013</td>
+                                    <td>3:29 PM</td>
+                                    <td>$321.33</td>
+                                </tr>
+                                <tr>
+                                    <td>3325</td>
+                                    <td>10/21/2013</td>
+                                    <td>3:20 PM</td>
+                                    <td>$234.34</td>
+                                </tr>
+                                <tr>
+                                    <td>3324</td>
+                                    <td>10/21/2013</td>
+                                    <td>3:03 PM</td>
+                                    <td>$724.17</td>
+                                </tr>
+                                <tr>
+                                    <td>3323</td>
+                                    <td>10/21/2013</td>
+                                    <td>3:00 PM</td>
+                                    <td>$23.71</td>
+                                </tr>
+                                <tr>
+                                    <td>3322</td>
+                                    <td>10/21/2013</td>
+                                    <td>2:49 PM</td>
+                                    <td>$8345.23</td>
+                                </tr>
+                                <tr>
+                                    <td>3321</td>
+                                    <td>10/21/2013</td>
+                                    <td>2:23 PM</td>
+                                    <td>$245.12</td>
+                                </tr>
+                                <tr>
+                                    <td>3320</td>
+                                    <td>10/21/2013</td>
+                                    <td>2:15 PM</td>
+                                    <td>$5663.54</td>
+                                </tr>
+                                <tr>
+                                    <td>3319</td>
+                                    <td>10/21/2013</td>
+                                    <td>2:13 PM</td>
+                                    <td>$943.45</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- END table responsive-->
+                        <div class="panel-footer text-right"><a href="#" class="btn btn-default btn-sm">View All Transactions</a>
+                        </div>
+                    </div>
+                </div><!-- end ngRepeat: tab in tabs -->
+                </div>
+            </div>
+        </div>
+        <!-- END panel tab-->
+    </div>
+</div>
